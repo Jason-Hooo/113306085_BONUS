@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bonus HW</title>
+    <style>
+        .table {
+            display: flex;
+            justify-content: center;
+        }
+
+        form {
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .element {
+            display: flex;
+            align-items: center;        
+            width: 100%;
+            font-weight: bold;
+            margin-bottom: 2%;
+        }
+
+        .element label {
+            margin-right: 5%;
+        }
+
+        .input1 {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .input2-and-3 {
+            float: left;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .input4 {
+            width: 90%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        img {
+            width: 50%;
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="table">
+        <form>
+            <h1>Bonus HW</h1>
+            <div class="element">
+                <label for="input1">Input1</label>
+                <input name="input1" id="input1" type="text" class="input1" placeholder="input1">
+            </div>
+            <div>
+                <div class="input2-and-3">
+                    <label for="input2">Input2</label>
+                    <input name="input2" id="input2" type="text" placeholder="input2">
+                </div>
+                <div class="input2-and-3">
+                    <label for="input3">Input3</label>
+                    <input name="input3" id="input3" type="text" placeholder="input3">
+                </div>
+            </div>
+            <div class="element">
+                <label for="input4">Input4</label>
+                <input name="input4" id="input4" type="text" class="input4" placeholder="input4">
+            </div>
+            <div class="element">
+                <label for="textarea">textarea</label>
+                <textarea name="textarea" id="textarea" rows="4" cols="50" placeholder="textarea"></textarea>
+            </div>
+            <div class="element">
+                <label for="picture1">picture1</label>
+                <img src="cat.webp" alt="no image found">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
